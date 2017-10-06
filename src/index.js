@@ -5,21 +5,21 @@
  * @author  Zain Sajjad <zsajjad@fetchsky.com>
  */
 
-var initialized = false
+let initialized = false;
 
-/** 
+/**
  * Utilities
  */
 
-var _verifyInit = function () {
+const _verifyInit = function () {
   if (!initialized) {
     console.warn('Pixel not initialized before using call ReactPixel.init with required params');
   }
   return initialized;
-}
+};
 
-var ReactPixel = {
-  init: function (pixelId) {
+const ReactPixel = {
+  init(pixelId, params = {}) {
     /* eslint-disable */
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
@@ -36,39 +36,38 @@ var ReactPixel = {
 
     if (!pixelId) {
       console.warn('Please insert pixel id for initializing');
-      return;
     } else {
-      fbq('init', pixelId);
+      fbq('init', pixelId, params);
       initialized = true;
     }
   },
 
-  pageView: function () {
+  pageView() {
     if (!_verifyInit()) {
       return;
     }
     fbq('track', 'PageView');
   },
 
-  track: function (title, data) {
+  track(title, data) {
     if (!_verifyInit()) {
       return;
     }
     fbq('track', title, data);
   },
 
-  trackCustom: function (event, data) {
+  trackCustom(event, data) {
     if (!_verifyInit()) {
       return;
     }
     fbq('trackCustom', event, data);
   },
 
-  fbq: function () {
+  fbq() {
     if (!_verifyInit()) {
       return;
     }
-    return fbq
+    return fbq;
   },
-}
+};
 module.exports = ReactPixel;

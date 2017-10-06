@@ -17,7 +17,7 @@ yarn add react-facebook-pixel
 ## How to use
 ```js
 import ReactPixel from 'react-facebook-pixel';
-ReactPixel.init('yourPixelIdGoesHere');
+ReactPixel.init('yourPixelIdGoesHere',{custom: "paramsHere"});
 
 ReactPixel.pageView(); // For tracking page view
 ReactPixel.track( event, data ) // For tracking default events, more info about events and data https://developers.facebook.com/docs/ads-for-websites/pixel-events/v2.9
