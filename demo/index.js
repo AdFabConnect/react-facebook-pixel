@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ReactPixel from '../src/index';
 
-ReactPixel.init('yourPixelIdGoesHere');
+ReactPixel.init('yourPixelIdGoesHere',{website: "www.test.com"});
 ReactPixel.pageView();
 
 ReactDOM.render(

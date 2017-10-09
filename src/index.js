@@ -19,7 +19,7 @@ const _verifyInit = function () {
 };
 
 const ReactPixel = {
-  init(pixelId, params) {
+  init(pixelId, params = {}) {
     /* eslint-disable */
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
@@ -37,8 +37,8 @@ const ReactPixel = {
     if (!pixelId) {
       console.warn('Please insert pixel id for initializing');
     } else {
-      console.log("fb params",params)
-      fbq('init', pixelId, params? params : {});
+      console.log('params', params);
+      fbq('init', pixelId, params);
       initialized = true;
     }
   },
