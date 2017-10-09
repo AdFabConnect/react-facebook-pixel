@@ -37,6 +37,7 @@ const ReactPixel = {
     if (!pixelId) {
       console.warn('Please insert pixel id for initializing');
     } else {
+      console.log("fb params",params)
       fbq('init', pixelId, params);
       initialized = true;
     }
