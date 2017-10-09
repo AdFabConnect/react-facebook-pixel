@@ -24,8 +24,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="316">
+              <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -197,7 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506439240147</updated>
       <workItem from="1506439241783" duration="1546000" />
-      <workItem from="1507295034415" duration="5011000" />
+      <workItem from="1507295034415" duration="5289000" />
     </task>
     <task id="LOCAL-00001" summary="enhancement - added custom params on init for advanced matching&#10;&#10;https://developers.facebook.com/docs/facebook-pixel/pixel-with-ads/conversion-tracking#advanced_match">
       <created>1507296281009</created>
@@ -227,11 +227,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507557191531</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="enhancement - added custom params on init for advanced matching&#10;&#10;https://developers.facebook.com/docs/facebook-pixel/pixel-with-ads/conversion-tracking#advanced_match">
+      <created>1507559481373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507559481373</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6557000" />
+    <option name="totallyTimeSpent" value="6835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1231" height="777" extended-state="6" />
@@ -318,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="316">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding />
         </state>
       </provider>

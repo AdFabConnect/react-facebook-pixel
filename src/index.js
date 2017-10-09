@@ -20,8 +20,6 @@ const _verifyInit = function () {
 
 const ReactPixel = {
   init(pixelId, params = {}) {
-    console.log("pixelId",pixelId)
-    console.log("params",params)
     /* eslint-disable */
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
